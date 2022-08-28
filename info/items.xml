@@ -1,0 +1,55 @@
+<!--
+    Syntax:
+    -object: An item tag is used to define any and all items within the game
+    -part: A part tag is used to define the parts that make up an item, such as names, descriptions and rendering
+-->
+
+<itemtable>
+    <object name="Torch" id="1">
+        <part name="Render" display="Torch Post" render="T" r="255" g="153" b="0"></part>
+        <part name="Description" text="A small torch, lights up the area."></part>
+        <part name="Physics" solid="false"></part>
+    </object>
+
+    <object name="Wall" id="2">
+        <part name="Render" display="Wall" render="▓" r="153" g="102" b="51"></part>
+        <part name="Description" text="A solid wall."></part>
+        <part name="Physics" solid="true"></part>
+    </object>
+
+    <object name="DenseGrass" id="3">
+        <part name="Render" display="Dense Grass" render='"' r="51" g="153" b="51"></part>
+        <part name="Description" text="A patch of grass"></part>
+        <part name="Physics" solid="false"></part>
+    </object>
+
+    <object name="ShortGrass" id="4">
+        <part name="Render" display="Dense Grass" render="'" r="51" g="153" b="51"></part>
+        <part name="Description" text="A patch of grass"></part>
+        <part name="Physics" solid="false"></part>
+    </object>
+
+    <object name="TallGrass" id="5">
+        <part name="Render" display="Tall Grass" render="Γ" r="51" g="153" b="51"></part>
+        <part name="Description" text="A patch of grass"></part>
+        <part name="Physics" solid="false"></part>
+    </object>
+
+    <object name="Dirt" id="6">
+        <part name="Render" display="Dirt" render='·' r="102" g="51" b="0"></part>
+        <part name="Description" text="A patch of dirt"></part>
+        <part name="Physics" solid="false"></part>
+    </object>
+
+    <object name="RockWall" id="7">
+        <part name="Render" display="Rock Wall" render='█' r="115" g="115" b="115"></part>
+        <part name="Description" text="A wall made from rock"></part>
+        <part name="Physics" solid="true"></part>
+    </object>
+
+    <object name="Bed" id="8">
+        <part name="Render" display="Bed" render='Θ' r="115" g="115" b="115"></part>
+        <part name="Description" text="A cozy looking bed"></part>
+        <part name="Physics" solid="true"></part>
+    </object>
+</itemtable>

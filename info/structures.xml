@@ -1,0 +1,10 @@
+<structgroup>
+
+    <structure name="BasicHouse" id="1">
+        <group type="pickeach">
+            <object name="Torch" number="1-2" inside="false:2"></object>
+            <object name="Bed" number="1" inside="true"></object>
+        </group>
+    </structure>
+
+</structgroup>
