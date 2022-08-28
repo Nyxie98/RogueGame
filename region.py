@@ -2,13 +2,13 @@ import random, perlin_noise, tile
 from tkinter import Y
 
 class Region:
-    def __init__(self, seed, wx, wy):
+    def __init__(self, seed, wx, wy) -> None:
         self.seed = seed
         self.wx = wx
         self.wy = wy
         self.tiles = []
 
-    def generate_region(self):
+    def generate_region(self) -> None:
         x = 0
         y = 0
         for i in range(0, 966):
