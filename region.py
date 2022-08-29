@@ -1,5 +1,4 @@
 import random, perlin_noise, tile
-from tkinter import Y
 
 class Region:
     def __init__(self, seed, wx, wy) -> None:
