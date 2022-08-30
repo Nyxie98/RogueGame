@@ -5,6 +5,12 @@
 -->
 
 <itemtable>
+    <object name="Debug" id="0">
+        <part name="Render" display="Wall" render="▓" r="255" g="0" b="0"></part>
+        <part name="Description" text="You shouldn't see this"></part>
+        <part name="Physics" solid="false"></part>
+    </object>
+
     <object name="Torch" id="1">
         <part name="Render" display="Torch Post" render="T" r="255" g="153" b="0"></part>
         <part name="Description" text="A small torch, lights up the area."></part>
